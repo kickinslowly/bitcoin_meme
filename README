@@ -4,4 +4,4 @@ This app pings coindesk every 30 seconds and grabs current Bitcoin price. Then i
 
 The page isn't beautiful, but the basic idea is working.
 
-![Bitcoin Roller Coaster Guy](https://github.com/kickinslowly/bitcoin_meme/blob/master/static/level.gif)
+![Bitcoin Roller Coaster Guy](https://raw.githubusercontent.com/kickinslowly/bitcoin_meme/master/static/level.gif)
