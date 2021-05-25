@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>HOME</title>
+
+{% endblock %}
+
+{% block body %}
+
+<h1> BITCOIN PRICE: {{ price }}.</h1>
+<h2> Percent Change in last 30 seconds: {{change}} %</h2>
+
+    <img src="{{ status.gif }}" class="gif">
+
+    <div class="audio">
+        {% for sound in status.sound %}
+        <audio controls autoplay loop><source src="{{ sound }}"></audio>
+        {% endfor %}
+    </div>
+<p>This is a silly project that checks the % change in Bitcoin price every 30 seconds and then updates roller coaster guy!</p>
+<p>Created with love by <a href="https://twitter.com/Aaron_D_M_Allen">Aaron</a>.</p>
+<p>Bitcoin coaster original artwork was created by <a href="https://twitter.com/MarcusConnorNH">Marcus</a> </p>
+<p>Price information pulled from <a href="https://www.coindesk.com/price/bitcoin">CoinDesk</a></p>
+<p>“The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.”
+
+— Satoshi Nakamoto</p>
+
+{% endblock %}
