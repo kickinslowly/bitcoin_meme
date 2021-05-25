@@ -1,0 +1,7 @@
+This is a learning project to help me understand Flask web framework. 
+
+This app pings coindesk every 30 seconds and grabs current Bitcoin price. Then it displays the Bitcoin Roller Coaster Guy at an angle associated with the % change in price over the last 30 seconds. It also chooses appropriate audio to display with Roller Coaster Guy.
+
+The page isn't beautiful, but the basic idea is working.
+
+![Bitcoin Roller Coaster Guy](https://github.com/kickinslowly/bitcoin_meme/blob/master/static/level.gif)
